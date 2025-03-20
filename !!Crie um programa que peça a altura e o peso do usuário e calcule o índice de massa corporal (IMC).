@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int altura; 
+    int peso;
+    int imc = altura % peso;
+    
+    printf("Digite sua altura: ");
+    scanf("%d", &altura);
+    
+    printf("Digite seu peso: ");
+    scanf("%d", &peso);
+    
+    printf("%d\n",imc);
+    return 0;
+}
